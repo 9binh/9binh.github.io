@@ -1,0 +1,15 @@
+a:link, a:visited { color: #0000ff; text-decoration: none }
+a:active, a:hover { color: #ffffff; background-color: #0000ff; text-decoration: none }
+p { line-height: 1.5em; }
+h1 { font-size: 28px; color: #000000; text-align: center; line-height: 1.25em; font-family: Times New Roman; font-weight: bold; margin: .75em 0 }
+h2, h3, h4, h5 { color: #000000; text-align:left; line-height: 1.25em; font-family: Tahoma; font-weight :bold; margin: .75em 0 .75em 0 }
+h2 { font-size: 18px }
+h3 { font-size: 15px }
+h4 { font-size: 13px }
+h5 { font-size: 12px }
+.mystatement { border: 1px solid #aaddff; background-color: #ffffff; padding: 24px; margin: 24px; }
+.mytitle { font-family: Arial; font-weight: bold; font-size: 16px; line-height: 1.5em; text-align: center; color: #000088; margin: .75em 0; }
+.mybody, .mysign { font-family: Arial; font-size: 13px; color: #000000; line-height: 1.5em; text-align: left; margin: .75em 0; }
+.mysign { text-align: right }
+#article_body { padding: 16px; background-color: #ddeeff }
+#myform0 { margin: 24px 48px 24px 96px }

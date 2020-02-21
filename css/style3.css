@@ -1,0 +1,19 @@
+a:link, a:visited { color: #0000ff; text-decoration: none }
+a:active, a:hover { color: #ffffff; background-color: #0000ff; text-decoration: none }
+p { line-height: 1.5em; }
+h1 { font-size: 28px; color: #000000; text-align: left; line-height: 1.25em; font-family: Times New Roman; font-weight: bold; margin: .75em 0 0 64px }
+h2, h3, h4, h5 { color: #000000; text-align:left; line-height: 1.25em; font-family: Tahoma; font-weight :bold; margin: .75em 0 .75em 0 }
+h2 { font-size: 18px }
+h3 { font-size: 15px }
+h4 { font-size: 13px }
+h5 { font-size: 12px }
+.bodypara { text-align: justify; margin: 0 0 .75em 64px }
+.firstpara { text-align: justify; margin: 0 0 .75em 64px }
+.i1para { text-align: justify; margin: 0 0 .75em 128px }
+.leftpara { text-align: left; margin: 0 0 .75em 64px }
+.centerpara { text-align: center; margin: 0 0 .75em 64px }
+.notes { text-align: justify; font-family: Arial; font-size: 13px; margin: 0 0 0 64px }
+.imagenotes { text-align: justify; font-family: Tahoma; font-size: 13px; color: #000000; margin: 0 0 }
+.refpara { font-family: Arial; font-size: 13px; text-align: left; margin: .5em 0 1.25em 64px; line-height: 1.25em }
+.infobox_gray { background-color: #ddd; border: 1px solid #ccc; float: right; width: 240px; margin-left: 10px; padding: 6px; text-align: justify; font-family: Arial; font-size: 13px; color: #000000; line-height: 1.25em }
+#article_body { margin: 32px }

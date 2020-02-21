@@ -1,0 +1,6 @@
+td, body { font-family: Verdana; font-size: 13px; color: #000088 }
+body { background-color: #ffffff }
+.menubar, .menubar a:link, .menubar a:visited { color: #ffffff; text-decoration: none; font-family: Arial; font-weight: bold; font-size: 12px; padding: 2px 6px}
+.menubar a:active, .menubar a:hover { color: #ffffff; background-color: #0077dd; font-weight: bold; text-decoration: none }
+#scr_top { display: inline }
+#prn_top { display: none }

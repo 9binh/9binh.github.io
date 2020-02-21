@@ -1,0 +1,123 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Danh sách tất cả các bài trên Cửu Bình</title>
+<style>
+.maintitle { font-family: 'Times New Roman'; font-weight: bold; font-size: 20px; color: #0088dd; margin-top: 16px }
+.fade { color: #888888 }
+.offset { background-color: #0088dd; color: #ffffff; padding: 0 3px }
+.plain { font-family: Verdana; font-size: 13px }
+.itext { font-family: Verdana; font-size: 13px; width: 100%; border: 1px solid #ddddaa; color: #0066aa }
+.i0, .i1, .i2, .th0 { font-family: Verdana; font-size: 13px; padding: 3px 6px }
+.i0 { background-color: #ffffdd }
+.i2 { background-color: #eeeeee }
+.th0 { font-family: Arial; background-color: #0088dd; color: #ffffff; font-weight: bold; padding: 6px 6px }
+</style>
+<script language="javascript">
+function jp_firstpage () {
+	document.forms.p0.Offset.value = 0;
+	document.forms.p0.submit ();
+}
+function jp_nextpage () {
+	document.forms.p0.Offset.value = eval (document.forms.p0.Offset.value) + eval (document.forms.p0.Limit.value);
+	document.forms.p0.submit ();
+}
+function jp_prevpage () {
+	document.forms.p0.Offset.value = eval (document.forms.p0.Offset.value) - eval (document.forms.p0.Limit.value);
+	if (0 > document.forms.p0.Offset.value) document.forms.p0.Offset.value = 0;
+	document.forms.p0.submit ();
+}
+function jp_lastpage () {
+	document.forms.p0.Offset.value = (%%last_page_offset%% > 0) ? %%last_page_offset%% : 0;
+	document.forms.p0.submit ();
+}
+function jp_changetype () {
+	document.forms.p0.Type.value = document.forms.p1.Type.value;
+	document.forms.p0.Offset.value = 0;
+	document.forms.p0.submit ();
+}
+function jp_changesize () {
+	document.forms.p0.Limit.value = document.forms.p1.Limit.value;
+	document.forms.p0.submit ();
+}
+function jp_changeoffset () {
+	document.forms.p0.Offset.value = document.forms.p1.Offset.value;
+	document.forms.p0.submit ();
+}
+</script>
+
+<link href="../../css/style0.css" rel="stylesheet">
+<link href="../../css/style0p.css" rel="stylesheet" media="print">
+<link href="../../css/style1.css" rel="stylesheet">
+<link href="../../css/style1p.css" rel="stylesheet" media="print">
+
+<script language="javascript" src="/bin/js/"></script>
+
+</head>
+
+<body>
+
+<script language="javascript">jp_ssi_top0()</script>
+<table width="100%" cellpadding="16" cellspacing="0" border="0"><tr><td>
+
+<div class="fade" style="float: right">%%sys_date%%</div>
+
+<div class="maintitle">DANH SÁCH CÁC BÀI ĐÃ ĐĂNG</div>
+
+<table width="100%" cellpadding="0" cellspacing="2" border="0">
+	<tr>
+		<form id="p1" name="p1" method="post">
+		<td valign="bottom" class="plain" align="right" nowrap>
+			Loại bài:
+			<select id="Type" name="Type" style="font-family: Tahoma; font-size: 12px" onChange="jp_changetype()">
+				<option value="--all--">-- Tất cả --</option>
+				%%more_types%%
+			</select>
+			&nbsp;&nbsp;&nbsp;Trang số:
+			<select id="Offset" name="Offset" style="font-family: Tahoma; font-size: 12px" onChange="jp_changeoffset()">
+				%%more_offset%%
+			</select>
+			&nbsp;&nbsp;&nbsp;Số bài mỗi trang:
+			<select id="Limit" name="Limit" style="font-family: Tahoma; font-size: 12px" onChange="jp_changesize()">
+				%%more_limit%%
+			</select>
+		</td>
+		</form>
+	</tr>
+	<tr>
+		<td  class="plain" valign="bottom" align="right" nowrap>
+			[<a href="javascript:jp_firstpage()">Đầu</a>] [%%prev_page%%] [%%next_page%%] [<a href="javascript:jp_lastpage()">Cuối</a>]
+		</td>
+	</tr>
+</table>
+
+<div style="border: 1px solid #0088dd">
+<table width="100%" cellpadding="0" cellspacing="2" border="0">
+<!--STARTS1--><tr valign=top>%%table_row%%</tr><!--ENDS1-->
+</table>
+</div>
+
+<table width="100%" cellpadding="0" cellspacing="2" border="0">
+	<tr>
+		<td valign="top" class="plain"><span class="offset">%%offset%%</span>&nbsp;+%%itemcount%%&nbsp;/%%countall_item%%</td>
+		<td  class="plain" valign="top" align="right" nowrap>
+			[<a href="javascript:jp_firstpage()">Đầu</a>] [%%prev_page%%] [%%next_page%%] [<a href="javascript:jp_lastpage()">Cuối</a>]
+		</td>
+	</tr>
+</table>
+
+<div>Phân loại: %%article_types%% <span class="fade">(một bài có thể thuộc nhiều loại).</span></div>
+<div style="display: none">
+	<form id="p0" name="p0" method="post">
+		<input id="Type" name="Type" type="hidden" value="%%type%%">
+		<input id="Offset" name="Offset" type="hidden" value="%%offset%%">
+		<input id="Limit" name="Limit" type="hidden" value="%%limit%%">
+	</form>
+</div>
+
+</td></tr></table>
+<script language="javascript">jp_ssi_bot0()</script>
+
+</body>
+</html>

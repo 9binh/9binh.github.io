@@ -1,0 +1,1 @@
+function jp_tuidang_counter(i){switch(i){case 1: document.write('822.542');break;case 2: document.write('145.961');break;case 3: document.write('39.166');break;case 4: document.write('10.550');break;case 5: document.write('2020-02-21 12:33:03');break;default: document.write('351.575.245');}}

@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>Dreamweaver Setup</title>
+<style>
+p { margin: 0 }
+</style>
+</head>
+<body bgcolor="#ffffff">
+<h1 style="border-top: 1px solid; border-bottom: 1px solid">DreamWeaver Setup</h1>
+<h2>1 - Program Preference</h2>
+<p>Hit Ctrl-U:</p>
+<p>&nbsp;</p>
+<p><b>General Tag</b></p>
+<p><img src="00.png" width="654" height="477" border="1"></p>
+<p>&quot;Reopen...&quot; means DW will automatically open &quot;working files&quot; in the last working session.</p>
+<p>Check-off &quot;Double-byte...&quot; so that DW will work with Vietnamese typing program.</p>
+<p>Do not use &quot;&lt;strong&gt;, &lt;em&gt;, &lt;css&gt;...&quot; means we want to use the good old day HTML coding stuff.</p>
+<p>&nbsp;</p>
+<p><b>Code Format Tag</b></p>
+<p><img src="01.png" width="654" height="477" border="1"> </p>
+<p>No ident, using lowercase, etc... those things are not really important, it is just the reference so that it fit the way we see the HTML code.</p>
+<p>&nbsp;</p>
+<p><img src="03.png" width="654" height="477" border="1"> </p>
+<p>Those settings means that DW do not automatically using standard encoding, this is to avoid conflict with Vietnamese text.</p>
+<p>&nbsp;</p>
+<p><b>File/Types/Editors Tag</b></p>
+<p><img src="04.png" width="654" height="477" border="1"> </p>
+<p>This settings tell DW to use what program to open what file. The file SSI (Server-Side Include) is actually HTML code and should be open by DW itself; while the XLS (Excel) files should be open by Excel program.</p>
+<p>&nbsp;</p>
+<p><b>Fonts Tag</b></p>
+<p><img src="05.png" width="654" height="477" border="1"> </p>
+<p>Select Fonts that we need. Check what please your eye.</p>
+<p>&nbsp;</p>
+<p><b>Invisible Elements Tag</b></p>
+<p><img src="06.png" width="654" height="477" border="1"> </p>
+<p>We want DW to display &quot;Script and Comments&quot; so that we do not accidentally delete those things.</p>
+<p>We want DW to include those embeded stuff so that we can see things more WYSIWYG.</p>
+<p>&nbsp;</p>
+<p><b>New Document Tag</b></p>
+<p><img src="07.png" width="654" height="477" border="1"></p>
+<p>We want to use UTF-8 (Unicode) as default.</p>
+<p>&nbsp;</p>
+<h2>2. Site Settings</h2>
+<p>The Site Settings --for Jiuping Site-- should be accessed via the &quot;File Pannel&quot;:</p>
+<p><img src="08.png" width="208" height="266" border="1"> </p>
+<p>After clicking to &quot;Manage Sites...&quot; the following will appear:</p>
+<p><img src="09.png" width="276" height="254" border="1"></p>
+<p>Then select the &quot;Site&quot; we want to manage.</p>
+<p>We may have different sites when we manage different websites.</p>
+<p>&nbsp;</p>
+<p>Then after choose the site we need: </p>
+<p><img src="10.png" width="571" height="541" border="1"></p>
+<p>Please use &quot;Advance&quot; for detailed settings, not &quot;Basic&quot;.</p>
+<p>The local root folder MUST be the local folder that contains the stuff that match the &quot;http://9binh.com/&quot; (the root of the website). Failing to do so may result in incorrect URL (address) calculation. For example, we may see a picture appearing correctly at local screen, but after uploading, it's gone. It may be because at local, the URL to the picture is correct, but it won't be correct after uploading.</p>
+<p>&nbsp;</p>
+<p><b>The remote Info:</b></p>
+<p><img src="11.png" width="571" height="541" border="1"></p>
+<p>1. The &quot;ftp&quot; information should be correct, which is like what is displayed above.</p>
+<p>2. We need to use &quot;Passiwve FTP&quot;, since most of the firewall/NAT require us to do so.</p>
+<p>3. The &quot;Check In, Check Out&quot; is needed to easier cooperating among people working on the same website.</p>
+<p>4. We may not want &quot;Check out files when opening&quot;, because the files will be &quot;check-out&quot; even when we just need to &quot;view&quot; it (read-only).</p>
+<p>5. Put the Check-out name as your name, so that after you check a file out, other will know that you are working on it, so they do not touch the file until you finish your work and &quot;check it in&quot;.</p>
+<p>&nbsp;</p>
+<p>IMPORTAN NOTE:</p>
+<p>&nbsp;</p>
+<p>Once we use &quot;Check-in/out&quot; way of coorperation, we have to Check files in and out using those two buttons (Check Out and Check In buttons):</p>
+<p><img src="14.png" width="208" height="52" border="1"> </p>
+<p>Not the &quot;Get&quot; and &quot;Put&quot; buttons:</p>
+<p><img src="15.png" width="208" height="52" border="1"> </p>
+<p>which are used when we are the only person maintaining the website. </p>
+<p>&nbsp;</p>
+<p>Since we do not have testing server, we leave those things below as &quot;none&quot;:</p>
+<p><img src="12.png" width="571" height="541" border="1"></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>We need to exchange &quot;Design Notes&quot;: </p>
+<p><img src="13.png" width="571" height="541" border="1"></p>
+<p>Design notes are notes that &quot;attached&quot; to files. For example, when a person A is working on a file and want to have a note about that, he &quot;stick that note&quot; to the file. If a person B want to work on that same file, he see that note when opening it, which help him to know what person A is mean to tell him.</p>
+<h2>3 - Document Templates and Styles</h2>
+<p>The &quot;templates&quot; files --form, layout, etc,... to create pages-- are located here: </p>
+<p><img src="16.png" width="208" height="273" border="1"></p>
+<p>Dowdload them all to the local. If you want to make a new teamplate, then create a new one, and upload to share with others.</p>
+<p>&nbsp;</p>
+<p>The Casscade Styles files --predefines about fonts, size, color,...-- are located here:</p>
+<p><img src="17.png" width="208" height="273" border="1"></p>
+<p>Download them all. </p>
+<p>&nbsp;</p>
+<p>To create a page based on a predefined template, hit Ctrl-N:</p>
+<p><img src="18.png" width="594" height="441" border="1"> </p>
+<p>We use &quot;our&quot; Templates, not those General stuff offered by DreamWeaver.</p>
+<p>We check-off &quot;Update page when...&quot; for easy use. If this is &quot;check-on&quot; then each time the template is modified, DreamWeaver will try to apply the same changed to all the pages that have created by using that particular template.</p>
+<p>&nbsp;</p>
+<p>When editing a page, we may need to &quot;sticked&quot; to the predifine Style.</p>
+<p><img src="19.png" width="802" height="127" border="1">By doing that way, when keep the pages of all the website having &quot;uniform&quot; look-and-feel.</p>
+<p>&nbsp;</p>
+<p>When editing a page, we may not want to accidentally dellete those &quot;icons&quot; above and below. </p>
+<p><img src="20.png" width="395" height="266" border="1"></p>
+<p>Those &quot;icons&quot; are actually JavaScript code that generate the proper header and footter of the page. Keeping that code make the pages we created having the same headers and footers. Using code make the headers and footters &quot;dynamic&quot;, namely it may not be something fixed forever.</p>
+<p>&nbsp;</p>
+<p>Hit Ctrl-Shift-H to see the content of the &quot;head&quot; HTML code:</p>
+<p><img src="21.png" width="395" height="30" border="1"> </p>
+<p>Those 2 last one are &quot;Title&quot; and &quot;Editor Notes Meta Tag&quot;.</p>
+<p>The &quot;Title&quot; should have the same contents as of the Title of the main body text, example:</p>
+<p><img src="22.png" width="524" height="127" border="1"></p>
+<p>While the Editor Notes should be some information like the English/Chinese source:</p>
+<p><img src="23.png" width="524" height="127" border="1"></p>
+<p>Unlike the Design Notes that we talked above --the notes kepts internally by DreamWeaver and unseen by Internet reader-- this Meta Tag can be read by the Internet technical readers when they open the HTML code to see. It is also what we want. We want to have a place so that when in need we know how to trace back to the source of information.</p>
+</body>
+</html>

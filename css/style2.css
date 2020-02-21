@@ -1,0 +1,24 @@
+a:link, a:visited { color: #0000bb; text-decoration: none }
+a:active, a:hover { color: #0000bb; text-decoration: underline }
+p { line-height: 1.5em; }
+h1 { font-size: 28px; color: #000000; text-align:center; line-height: 1.25em; font-family: Times New Roman; font-weight: bold; margin: 0 0 .5em 0 }
+h2, h3, h4, h5 { color: #000000; text-align:left; line-height: 1.25em; font-family: Tahoma; font-weight :bold; margin: 0 0 .5em 0 }
+h2 { font-size: 18px }
+h3 { font-size: 15px }
+h4 { font-size: 13px }
+h5 { font-size: 12px }
+.bodypara { text-align: justify; margin: 0 0 .5em 0; color: #000000 }
+.firstpara { text-align: justify; margin: 0 0 .5em 0; color: #000000 }
+.i1para { text-align: justify; margin: 0 0 .5em 64px }
+.leftpara { text-align: left; margin: 0 0 .5em 0 }
+.centerpara { text-align: center; margin: 0 0 .5em 0 }
+.notes { text-align: justify; font-family: Arial; font-size: 13px; margin: 0 0 0 0 }
+.imagenotes { text-align: justify; font-family: Tahoma; font-size: 13px; color: #000000; margin: 0 0 }
+.navbox { background-image: url(/pic/bar2.gif); background-position: top; background-repeat:repeat-x; margin: 0 0 8px 0; border: 1px solid #bbccff }
+.navcap { font-family: Arial; font-size: 13px; color: #000000; font-weight: bold; padding: 0 8px }
+.navitem { text-align: justify; font-family: Arial; font-size: 13px; line-height: 1.2em; margin-top: 0 }
+.newsflash { margin: 0 0 8px 0; padding: 4px; border: 1px solid #eeaa66; background-color: #ffeecc; text-align: center }
+.newsbox { margin: 0 0 8px 0; border-left: 1px dashed #999999 }
+.newscap { font-family: Arial; font-size: 13px; color: #000000; font-weight: bold; padding: 0 4px }
+.newsitem, .newsitem1, .newsitem2 { text-align: justify; font-family: Arial; font-size: 13px; margin: 0 0 5px 0 }
+.newsitem1 { background-color: #f1f1f1 }
