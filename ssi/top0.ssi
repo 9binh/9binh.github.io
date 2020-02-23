@@ -1,0 +1,55 @@
+<!-- top menu bar begins -->
+<div id="scr_top">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td bgcolor="#000000"><a href="http://9binh.com"><img src="/pic/h0.jpg" width="760" height="100" border="0" title="Cửu Bình : Chín bài bình luận về đảng cộng sản"></a></td>
+	</tr>
+	<tr>
+		<td bgcolor="#000088" background="/pic/bar0.gif"><table border="0" cellpadding="2" cellspacing="0" width="100%"><tr>
+			<td align="left" valign="middle">
+				<table cellpadding="0" cellspacing="0" border="0"><tr>
+					<td class="menubar" align="left" nowrap>
+						<a href="/" title="Quay về trang nhà Cửu Bình"><img src="/pic/home.gif" border="0" width="14" height="14"></a>
+						<a href="http://tuidang.dajiyuan.com" title="Website “thoái đảng” tiếng Hoa">tuidang</a>
+						<a href="http://quitccp.epochtimes.com" title="Website “thoái đảng” tiếng Anh, từ bỏ ĐCSTQ">quitccp</a>
+					</td>
+					<form id="searchform0" name="searchform0" method="get" action="http://www.google.com/search">
+					<td class="menubar" align="left" valign="middle" nowrap>
+						&nbsp;
+						<input type="text" name="q" size="20" maxlength="255" value="" style="font-family: Arial; font-weight: normal; color: #000088; border: 1px solid #0077dd"><input type="hidden" name="domains" value="9binh.com"><input type="hidden" name="sitesearch" value="9binh.com"><input type="hidden" name="ie" value="UTF-8"><input type="hidden" name="oe" value="UTF-8">
+					</td>
+					<td valign="middle">
+						<input name="btnG" type="image" src="/pic/icon_search.gif" width="59" height="18" border="0" hspace="6" title="Tìm kiếm bằng Google">
+					</td>
+					</form>
+					<!-- An alternative: Yahoo Search
+					<form id="searchform0" name="searchform0" method="get" action="http://search.yahoo.com/search" onSubmit="this.p.value = this.jiuping.value + ' site:9binh.com'">
+					<td class="menubar" align="left" valign="middle" nowrap>
+						&nbsp;
+						<input name="jiuping" type="text" size="20" maxlength="255" value="" style="font-family: Arial; font-weight: normal; color: #000088; border: 1px solid #0077dd">
+					</td>
+					<td valign="middle">
+						<input type="hidden" name="ei" value="UTF-8">
+						<input type="hidden" name="p" value="site:9binh.com">
+						<input type="image" src="/pic/icon_search.gif" width="59" height="18" border="0" hspace="6" title="Tìm kiếm bằng Yahoo">
+					</td>
+					</form>
+					-->
+					<!--
+					<td class="menubar" align="left" nowrap>&nbsp;&nbsp;
+						<a href="#tuidang" title="Mẫu công bố thoái đảng">công bố thoái đảng</a>&nbsp;&nbsp;
+					</td>
+					-->
+				</tr></table>
+			</td>
+			<td class="menubar" align="right" valign="middle" nowrap><a href="/downloads" title="Các file để download, như băng tiếng,…">download</a>&nbsp;&nbsp;</td>
+		</tr></table></td>
+	</tr>
+</table>
+</div>
+<div id="prn_top">
+<img src="/pic/h1.jpg" width="545" height="68" border="0">
+</div>
+<!-- top menu bar ends -->
+
+<!-- whole body begins -->

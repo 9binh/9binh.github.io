@@ -1,0 +1,42 @@
+<h2>Thoái đảng<a name="tuidang"></a></h2>
+<p class="firstpara">Nếu bạn muốn công bố rút lui khỏi đảng hoặc các tổ chức liên đới (đoàn, đội), thì có thể điền vào mẫu sau đây và gửi đi. Đây là mẫu công bố của <a href="http://tuidang.dajiyuan.com">http://tuidang.dajiyuan.com</a> (website “Thoái đảng” của thời báo Đại Kỷ Nguyên DAJIYUAN.COM), với mục đích trợ giúp các đọc giả công bố nguyện vọng của mình.</p>
+
+<table cellspacing="4" cellpadding="0" border="0">
+	<form action="/bin/form0/" method="post" name="tuidangform">
+	<tr>
+		<td valign="top" nowrap>Tên:</td>
+		<td valign="top"><input name="name" type="text" maxlength="128" size="32" style="border: 1px solid #2266aa; color: #000000"> [1]</td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap>Email:</td>
+		<td valign="top"><input name="email" type="text" maxlength="128" size="32" style="border: 1px solid #2266aa; color: #000000"></td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap>Địa chỉ:</td>
+		<td valign="top"><input name="address" type="text" maxlength="256" size="32" style="border: 1px solid #2266aa; color: #000000"> [2]</td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap>Tiêu đề:</td>
+		<td valign="top"><input name="title" type="text" maxlength="100" size="32" style="border: 1px solid #2266aa; color: #000000"> [3]</td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap>Số người:</td>
+		<td valign="top"><input name="number" type="text" value="1" maxlength="3" size="32" style="border: 1px solid #2266aa; color: #000000"> [4]</td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap>Nội dung:</td>
+		<td valign="top"><textarea name="message" cols="48" rows="12" style="font-family: Times New Roman" style="border: 1px solid #2266aa; color: #000000"></textarea></td>
+	</tr>
+	<tr>
+		<td valign="top" nowrap>&nbsp;</td>
+		<td valign="top"><input name="submit" type="submit" value=" Gửi | Submit " style="font-family: Arial; font-weight: bold">&nbsp;&nbsp;<input name="reset" type="reset" value=" Xoá | Reset " style="font-family: Arial; font-weight: normal"><input name="op" type="hidden" value="[tuidang]"><input name="okpage" type="hidden" value="/a0/thank0.html"></td>
+	</tr>
+	</form>
+</table>
+
+<p class="notes"><br><b>Ghi chú</b>: Các bạn hãy viết bằng tiếng Việt Unicode (hoặc tiếng Anh hay tiếng Việt không dấu cũng được). Xin cảm ơn.</p>
+<p class="notes">[1] Hãy ghi tên của bạn vào đây. Chỉ ghi một tên thôi: nếu là công bố của nhiều người, thì hãy ghi rõ danh sách ở mục “nội dung” bên dưới. <b>Vì lý do an toàn cho những ai đang sống tại quốc gia cộng sản, <span style="color: #ff3300">xin hãy dùng biệt danh</span></b> (cần ghi rõ đó là biệt danh). Nếu bạn gửi tên thật và bạn yêu cầu chúng tôi giữ kín khi đăng, chúng tôi sẽ đổi tên bạn trước khi công bố.</p>
+<p class="notes">[2] <b>Vì lý do an toàn cho các bạn tại quốc gia cộng sản, có thể chỉ cần ghi địa chỉ là tên tỉnh thành</b>.</p>
+<p class="notes">[3] Tiêu đề: ghi tiêu đề cho bản công bố của bạn (thoái đảng, thoái đoàn, thoái đội, từ đâu, mục đích,…)</p>
+<p class="notes">[4] Nếu là công bố tập thể, xin vui lòng ghi rõ số người tại đây.</p>
+<p class="notes">Ngoài cách gửi công bố bằng cách dùng mẫu này, các bạn có thể gửi công bố của mình bằng email trực tiếp đến <u>cuubinh2004@gmail.com</u> (tiếng Việt, tiếng Anh, tiếng Hoa) hoặc <u>news@epochtimes.com</u> (tiếng Anh, tiếng Hoa). Các công bố sẽ được chuyển đến tuidang.dajiyuan.com.</p>

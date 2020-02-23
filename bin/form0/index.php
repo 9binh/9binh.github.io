@@ -1,59 +1,55 @@
 <?php
 
-/* <meta http-equiv="content-type" content="text/html;charset=utf-8"> */
+error_reporting(0);
 
-error_reporting (0);
-
-define ("RECEIVER", "chinbinh@9binh.com,jiuping@lycos.co.uk,quychan@yandex.ru");
+define ("RECEIVER", "chinbinh@9binh.com,jiuping@lycos.co.uk,quychan@yandex.ru,cuubinh2004@gmail.com");
 define ("NOBODY", "anonymous@anonymous.cc");
-define ("TITLE", "Cong bo thoai dang");
+define ("TITLE", "Cong bo thoai dang, doan, doi");
 define ("HOME_PAGE", "/");
 define ("TUIDANG", "[tuidang]");
 
-function makeHeader ($fr, $to) {
-	$headers .= "Content-type: text/plain; charset=utf-8\r\n";
-	$headers .= "From: ${fr}\r\n";
-	$headers .= "To: ${to}\r\n";
-	return $headers;
-} /* makeHeader */
+function makeHeader($fr, $to)
+{
+    $headers = "Content-type: text/plain; charset=utf-8\r\n";
+    $headers .= "From: ${fr}\r\n";
+    $headers .= "To: ${to}\r\n";
+    return $headers;
+}
 
-function jumpPage ($url) {
-	print ("<html><head><meta http-equiv=\"refresh\" content=\"0;url='${url}'\"></head></html>");
-} /* jumpPage */
+function jumpPage($url)
+{
+    print ("<html><head><meta http-equiv=\"refresh\" content=\"0;url='" . $url . "'\"></head></html>");
+}
 
-switch (trim ($_POST['op'])) {
-	case TUIDANG: $to = RECEIVER; break;
-	default: $to = ""; break;
+switch (trim($_POST['op'])) {
+    case TUIDANG:
+        $to = RECEIVER;
+        break;
+    default:
+        $to = "";
+        break;
 }
 
 if ($to == "") {
-
-	jumpPage (HOME_PAGE);
-
+    jumpPage(HOME_PAGE);
 } else {
+    $jump_page_ok = $_POST['okpage'] ? trim($_POST['okpage']) : HOME_PAGE;
+    $jump_page_error = $_POST['errorpage'] ? trim($_POST['errorpage']) : HOME_PAGE;
 
-	$jump_page_ok = $_POST['okpage'] ? trim ($_POST['okpage']) : HOME_PAGE;
-	$jump_page_error = $_POST['errorpage'] ? trim ($_POST['errorpage']) : HOME_PAGE;
+    $from = $_POST['email'] ? trim($_POST['email']) : NOBODY;
+    $subject = "<" . $_SERVER['SERVER_NAME'] . "> " . trim($_POST['op']) . " " . date("Y.n.j") . " " . $from;
+    $title = TITLE;
+    $message = "Subject: ${subject}\r\n";
+    $message .= "From: ${from}\r\n";
 
-	$from = $_POST['email'] ? trim ($_POST['email']) : NOBODY;
+    if ($_POST['name']) $message .= "Name: " . trim($_POST['name']) . "\r\n";
+    if ($_POST['address']) $message .= "Address: " . trim($_POST['address']) . "\r\n";
+    if ($_POST['title']) $message .= "Title: " . trim($_POST['title']) . "\r\n";
+    if ($_POST['number']) $message .= "Number: " . trim($_POST['number']) . "\r\n";
+    $message .= "\r\n";
+    if ($_POST['message']) $message .= $_POST['message'];
 
-	$subject = "<" . $_SERVER['SERVER_NAME'] . "> " . trim ($_POST['op']) . " " . date ("Y.n.j") . " " . $from;
+    jumpPage($jump_page_ok);
 
-	$title = TITLE;
-
-	$message = "Subject: ${subject}\r\n";
-	$message .= "From: ${from}\r\n";
-	if ($_POST['name']) $message .= "Name: " . trim ($_POST['name']) . "\r\n";
-	if ($_POST['address']) $message .= "Address: " . trim ($_POST['address']) . "\r\n";
-	if ($_POST['title']) $message .= "Title: " . trim ($_POST['title']) . "\r\n";
-	if ($_POST['number']) $message .= "Number: " . trim ($_POST['number']) . "\r\n";
-	$message .= "\r\n";
-	if ($_POST['message']) $message .= $_POST['message'];
-
-	jumpPage ($jump_page_ok);
-
-	mail ($to, $subject, $message, makeHeader ($from, $to));
-
+    mail($to, $subject, $message, makeHeader($from, $to));
 }
-
-?>
