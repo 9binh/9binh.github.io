@@ -20,8 +20,9 @@ acronym, abbr {border-bottom: 1px dashed #333;}
 acronym, abbr, span.caps {font-size: 90%;letter-spacing: .07em;}
 acronym, abbr {cursor: help;}
 blockquote {border-left: 5px solid #ccc;margin-left: 1.5em;padding-left: 5px;}
-.menubar, .menubar a:link, .menubar a:visited {color: #ff0;text-decoration: none;font-family: sans-serif,Arial,Verdana,"Trebuchet MS";font-size: 14px;padding: 2px 4px;text-shadow: 1px 1px 0px #333;letter-spacing: .05em;}
-h1 {font-size: 28px;color: #000;line-height: 1.25em;font-family: Times New Roman;font-weight: bold;}
+.menubar, .menubar a:link, .menubar a:visited {color: #ff0;text-decoration: none;font-family: Play,Oswald,Arial;font-size: 14px;padding: 2px 4px;text-shadow: 1px 1px 0px #333;letter-spacing: .05em;text-transform: uppercase;}
+.menubar img {margin-top: 2px;}
+h1 {font-size: 28px;color: #000;line-height: 1.25em;font-family: Play,Oswald,Arial;font-weight: bold;}
 h2, h3, h4, h5 {color: #000;text-align: left;line-height: 1.25em;font-family: Tahoma;font-weight: bold;margin: .75em 0 .75em 0;}
 h2 {font-size: 18px;}
 h3 {font-size: 15px;}
@@ -43,12 +44,12 @@ td, body {font-family: Verdana;font-size: 14px;color: #008;}
 .infobox_gray {background-color: #ddd;border: 1px solid #ccc;float: right;width: 240px;margin-left: 10px;padding: 6px;text-align: justify;font-family: Arial;font-size: 13px;color: #000;line-height: 1.25em;}
 .navbox {background-image: url("/pic/bar2.gif");background-position: top;background-repeat: repeat-x;margin: 0 0 8px 0;border: 1px solid #bcf;}
 .navboxright {background-image: url("/pic/bar2.gif");background-position: top;background-repeat: repeat-x;margin-left: 5px;margin-bottom: 10px;border: 1px solid #bcf;padding-right: 5px;}
-.navcap {font-family: Arial;font-size: 14px;color: #000;font-weight: bold;padding: 0 8px;}
-.navcapright {text-transform: uppercase;font-family: sans-serif,Arial,Verdana,"Trebuchet MS";font-size: 14px;color: #000;font-weight: bold;padding-left: 10px;padding-bottom: 10px;padding-top: 10px;}
+.navcap {font-family: "Roboto Condensed",Oswald,Arial;font-size: 15px;color: #111;font-weight: bold;padding: 0 8px;}
+.navcapright {text-transform: uppercase;font-family: "Roboto Condensed",Oswald,Arial;font-size: 15px;color: #111;font-weight: bold;padding-left: 10px;padding-bottom: 10px;padding-top: 10px;}
 .navcapright a {text-transform: none;}
 .navitem {text-align: justify;font-family: Arial;font-size: 14px;line-height: 1.2em;margin-top: 0;padding-top: 5px;padding-right: 3px;}
 td.navitem img {}
-.newsflash {padding: 4px 8px 8px 8px;border: 1px solid #efc59b;text-align: center;margin-right: 5px;background-image: url("/pic/bar2.gif");background-position: top;background-repeat: repeat-x;}
+.newsflash {padding: 4px 8px 8px 8px;border: 1px solid #efc59b;text-align: center;margin-right: 5px;background-image: url("/pic/bar2.gif");background-position: top;background-repeat: repeat-x;font-family: Play,Oswald,Arial;font-size: 18px;color: #111;}
 .newsbox {margin: 0 0 8px 0;border-left: 1px dashed #999;}
 .newscap {font-family: Arial;font-size: 13px;color: #000;font-weight: bold;padding: 0 4px;}
 .newsitem, .newsitem1, .newsitem2 {text-align: justify;font-family: Arial;font-size: 13px;margin: 0 0 5px 0;}
@@ -68,8 +69,8 @@ td.navitem img {}
 .cssBody table td {padding: 5px 0;}
 .newsbox {padding: 10px;}
 .cssPaging {text-align: right;margin-right: 20px;}
-.cssTitle {border-bottom: 1px solid #f80;margin: 15px 0pt 8px;padding: 5px 0pt 0pt;font-family: Arial;font-style: normal;font-variant: normal;font-size: 17px;line-height: normal;font-stretch: normal;color: #f80;width: 100%;}
-.cssTitle a {color: #f80;text-transform: uppercase;font-family: sans-serif,Arial,Verdana,"Trebuchet MS";}
+.cssTitle {border-bottom: 1px solid #f80;margin: 15px 0pt 8px;padding: 5px 0pt 0pt;font-family: Play,Oswald,Arial;font-style: normal;font-variant: normal;font-size: 16px;line-height: normal;font-stretch: normal;color: #f80;width: 100%;}
+.cssTitle a {color: #e47b03;text-transform: uppercase;font-family: Play,Oswald,Arial;}
 .cssTitleField {font-family: Arial,Verdana;font-size: 15px;}
 .cssShortContent {font-family: Arial;font-size: 15px;color: black;margin-top: 5px;line-height: 18px;}
 .cssTitle a:hover {color: #f80;text-decoration: underline;background: white;}
@@ -101,7 +102,7 @@ p.pagenav {margin: 0;display: inline;}
 .wp-caption img {margin: 0;padding: 0;border: 0 none;}
 .wp-caption p.wp-caption-text {font-size: 11px;line-height: 17px;padding: 0 4px 5px;margin: 0;}
 .post img {padding: 10px;}
-ul.blogroll {padding-left: 10px;margin-left: 10px;}
+ul.blogroll {padding-left: 10px;margin-left: 10px;font-family: Tahoma,Arial,sans-serif;font-size: 14px;}
 #footer {max-width: 1080px;background-color: #3b2a4b;padding: 13px 0;margin-top: 25px;color: #fff;}
 #jp_header {width: 1080px;height: 404px;position: relative;background-image: url("/pic/jp_banner-min.jpg");background-repeat: no-repeat;background-size: cover;border-bottom: 1px solid #bcf;}
 .header_title {font-family: "Times New Roman","serif";font-size: 22px;color: blue;width: 550px;text-align: center;padding-top: 230px;margin: 0 auto;text-shadow: 1px 1px 0px #fff;font-style: italic;}
