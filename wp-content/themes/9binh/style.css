@@ -74,6 +74,7 @@ td.navitem img {}
 .cssTitleField {font-family: Arial,Verdana;font-size: 15px;}
 .cssShortContent {font-family: Arial;font-size: 15px;color: black;margin-top: 5px;line-height: 18px;}
 .cssTitle a:hover {color: #f80;text-decoration: underline;background: white;}
+.cssMeta {border-bottom: 1px solid #f80;padding: 5px 0 10px 0;font-family: Play,Oswald,Arial;font-size: 16px;color: #111;width: 100%;}
 .cssPostDate {margin: 20px 20px 20px;font-style: italic;font-family: Tahoma,Arial,Helvetica,sans-serif;font-size: 14px;text-align: right;}
 .linkcat {font-family: Arial;font-size: 13px;color: #000;font-weight: bold;padding: 5px 0px;}
 .rowlink {font-family: Arial;font-size: 14px;padding-bottom: 10px;}
