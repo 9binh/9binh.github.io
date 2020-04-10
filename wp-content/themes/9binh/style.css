@@ -23,8 +23,8 @@ blockquote {border-left: 5px solid #ccc;margin-left: 1.5em;padding-left: 5px;}
 .menubar, .menubar a:link, .menubar a:visited {color: #ff0;text-decoration: none;font-family: Play,Oswald,Arial;font-size: 14px;padding: 2px 4px;text-shadow: 1px 1px 0px #333;letter-spacing: .05em;text-transform: uppercase;}
 .menubar img {margin-top: 2px;}
 h1 {font-size: 28px;color: #000;line-height: 1.25em;font-family: Play,Oswald,Arial;font-weight: bold;}
-h2, h3, h4, h5 {color: #000;text-align: left;line-height: 1.25em;font-family: Tahoma;font-weight: bold;margin: .75em 0 .75em 0;}
-h2 {font-size: 18px;}
+h2, h3, h4, h5 {color: #000;text-align: left;line-height: 1.25em;font-family: Play,Oswald,Tahoma;font-weight: bold;margin: .75em 0 .75em 0;}
+h2 {font-size: 21px;}
 h3 {font-size: 15px;}
 h4 {font-size: 13px;}
 h5 {font-size: 12px;}
@@ -61,7 +61,7 @@ td.navitem img {}
 .cssTuidangForm ol li {margin: 5px 0;}
 .cssTuidangForm ol li ol {padding-left: 15px;}
 .cssTuidangForm ol li ol li {font-weight: normal;}
-.cssContent {margin-right: 10px;margin-bottom: 10px;clear: both;}
+.cssContent {margin: 15px 10px 15px 0;clear: both;}
 .cssContent img {}
 .cssContent table {margin-bottom: 10px;}
 .cssBody {}
@@ -69,12 +69,13 @@ td.navitem img {}
 .cssBody table td {padding: 5px 0;}
 .newsbox {padding: 10px;}
 .cssPaging {text-align: right;margin-right: 20px;}
-.cssTitle {border-bottom: 1px solid #f80;margin: 15px 0pt 8px;padding: 5px 0pt 0pt;font-family: Play,Oswald,Arial;font-style: normal;font-variant: normal;font-size: 16px;line-height: normal;font-stretch: normal;color: #f80;width: 100%;}
+.cssTitle {border-bottom: 1px solid #f80;margin: 0 0 8px;padding: 5px 0pt 0pt;font-family: Play,Oswald,Arial;font-style: normal;font-variant: normal;font-size: 16px;line-height: normal;font-stretch: normal;color: #f80;width: 100%;}
 .cssTitle a {color: #e47b03;text-transform: uppercase;font-family: Play,Oswald,Arial;}
 .cssTitleField {font-family: Arial,Verdana;font-size: 15px;}
 .cssShortContent {font-family: Arial;font-size: 15px;color: black;margin-top: 5px;line-height: 18px;}
 .cssTitle a:hover {color: #f80;text-decoration: underline;background: white;}
 .cssMeta {border-bottom: 1px solid #f80;padding: 5px 0 10px 0;font-family: Play,Oswald,Arial;font-size: 16px;color: #111;width: 100%;}
+.cssOtherBooks {border-bottom: 1px solid #f80;padding: 5px 0 10px 0;font-family: Play,Oswald,Arial;font-size: 16px;color: #111;width: 100%;line-height: 25px;}
 .cssPostDate {margin: 20px 20px 20px;font-style: italic;font-family: Tahoma,Arial,Helvetica,sans-serif;font-size: 14px;text-align: right;}
 .linkcat {font-family: Arial;font-size: 13px;color: #000;font-weight: bold;padding: 5px 0px;}
 .rowlink {font-family: Arial;font-size: 14px;padding-bottom: 10px;}
