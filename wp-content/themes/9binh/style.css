@@ -3,7 +3,7 @@ body {background-color: #fff;}
 #content {margin-top: 5px;}
 #rap {text-align: left;min-width: 1000px;max-width: 1080px;}
 .viewOtherPost {text-align: right;margin-right: 5px;}
-a:link, a:visited {color: #00f;text-decoration: none;}
+a:link, a:visited {color: #2a3266;text-decoration: none;}
 a:active, a:hover {text-decoration: underline;}
 .storycontent {margin-bottom: 10px;margin-right: 20px;font-family: "Times New Roman",sans-serif;font-size: 21px;text-align: justify;color: #000;max-width: 717px;}
 .single_content {max-width: 717px;}
@@ -20,7 +20,7 @@ acronym, abbr {border-bottom: 1px dashed #333;}
 acronym, abbr, span.caps {font-size: 90%;letter-spacing: .07em;}
 acronym, abbr {cursor: help;}
 blockquote {border-left: 5px solid #ccc;margin-left: 1.5em;padding-left: 5px;}
-.menubar, .menubar a:link, .menubar a:visited {color: #ff0;text-decoration: none;font-family: Play,Oswald,Arial;font-size: 14px;padding: 2px 4px;text-shadow: 1px 1px 0px #333;letter-spacing: .05em;text-transform: uppercase;}
+.menubar, .menubar a:link, .menubar a:visited {color: #ff0;text-decoration: none;font-family: Play,Oswald,Arial;font-size: 13px;padding: 2px 3px;text-shadow: 1px 1px 0px #333;letter-spacing: .05em;text-transform: uppercase;line-height: 18px;}
 .menubar img {margin-top: 2px;}
 h1 {font-size: 28px;color: #000;line-height: 1.25em;font-family: Play,Oswald,Arial;font-weight: bold;}
 h2, h3, h4, h5 {color: #000;text-align: left;line-height: 1.25em;font-family: Play,Oswald,Tahoma;font-weight: bold;margin: .75em 0 .75em 0;}
@@ -29,7 +29,7 @@ h3 {font-size: 15px;}
 h4 {font-size: 13px;}
 h5 {font-size: 12px;}
 p {line-height: 1.5em;}
-td, body {font-family: Verdana;font-size: 14px;color: #008;}
+td, body {font-family: Verdana;font-size: 14px;color: #21211f;}
 .notes {text-align: justify;font-family: Arial;font-size: 13px;margin: 0px;}
 .imagenotes {text-align: center;font-family: Tahoma;font-style: italic;font-size: 13px;color: #000;margin: 0 0;padding: 10px;}
 #article_body {margin: 32px;}
@@ -54,7 +54,7 @@ td.navitem img {}
 .newscap {font-family: Arial;font-size: 13px;color: #000;font-weight: bold;padding: 0 4px;}
 .newsitem, .newsitem1, .newsitem2 {text-align: justify;font-family: Arial;font-size: 13px;margin: 0 0 5px 0;}
 .newsitem1 {background-color: #f1f1f1;}
-.cssTextLink {font-family: Tahoma,Arial,Helvetica,sans-serif;font-size: 16px;font-weight: bold;text-decoration: none;padding: 5px 0;}
+.cssTextLink {font-family: Play,Tahoma,Arial,Helvetica,sans-serif;font-size: 18px;font-weight: bold;text-decoration: none;padding: 5px 0;}
 .cssTextLink:hover {text-decoration: underline;cursor: pointer;}
 .cssTuidangForm {margin-left: 10px;margin-right: 5px;text-align: justify;}
 .cssTuidangForm img {border: 1px solid #ccc;padding: 2px;margin: 15px auto;}
@@ -71,8 +71,8 @@ td.navitem img {}
 .cssPaging {text-align: right;margin-right: 20px;}
 .cssTitle {border-bottom: 1px solid #f80;margin: 0 0 8px;padding: 5px 0pt 0pt;font-family: Play,Oswald,Arial;font-style: normal;font-variant: normal;font-size: 16px;line-height: normal;font-stretch: normal;color: #f80;width: 100%;}
 .cssTitle a {color: #e47b03;text-transform: uppercase;font-family: Play,Oswald,Arial;}
-.cssTitleField {font-family: Arial,Verdana;font-size: 15px;}
-.cssShortContent {font-family: Arial;font-size: 15px;color: black;margin-top: 5px;line-height: 18px;}
+.cssTitleField {font-family: Arial,Verdana;font-size: 16px;line-height: 21px;}
+.cssShortContent {font-family: Arial;font-size: 16px;color: black;margin-top: 5px;line-height: 21px;}
 .cssTitle a:hover {color: #f80;text-decoration: underline;background: white;}
 .cssMeta {border-bottom: 1px solid #f80;padding: 5px 0 10px 0;font-family: Play,Oswald,Arial;font-size: 16px;color: #111;width: 100%;}
 .cssOtherBooks {border-bottom: 1px solid #f80;padding: 5px 0 10px 0;font-family: Play,Oswald,Arial;font-size: 16px;color: #111;width: 100%;line-height: 25px;}
@@ -106,10 +106,10 @@ p.pagenav {margin: 0;display: inline;}
 .post img {padding: 10px;}
 ul.blogroll {padding-left: 10px;margin-left: 10px;font-family: Tahoma,Arial,sans-serif;font-size: 14px;}
 #footer {max-width: 1080px;background-color: #3b2a4b;padding: 13px 0;margin-top: 25px;color: #fff;}
-#jp_header {width: 1080px;height: 404px;position: relative;background-image: url("/pic/jp_banner-min.jpg");background-repeat: no-repeat;background-size: cover;border-bottom: 1px solid #bcf;}
-.header_title {font-family: "Times New Roman","serif";font-size: 22px;color: blue;width: 550px;text-align: center;padding-top: 230px;margin: 0 auto;text-shadow: 1px 1px 0px #fff;font-style: italic;}
+#jp_header {width: 1080px;height: 295px;position: relative;background-image: url("/pic/9p-banner.jpg");background-repeat: no-repeat;background-size: cover;border-bottom: 1px solid #bcf;}
+.header_title {font-family: "Times New Roman","serif";font-size: 23px;color: blue;width: 550px;text-align: center;padding-top: 130px;margin: 0 auto;text-shadow: 1px 1px 0px #fff;font-style: italic;}
 .nav {padding-left: 0;margin-bottom: 0;list-style: none;}
-.navbar-nav > li {border: 1px solid #fff;margin: 8px;padding: 4px 5px;border-radius: 4px;}
+.navbar-nav > li {border-bottom: 1px solid #fff;margin: 4px;padding: 2px 3px;border-radius: 5px;}
 .navbar-nav > li:hover {background-color: rgba(0,0,0,.5);cursor: pointer;}
 @media only screen and (max-width: 991px) {#rap, #footer {min-width: 100%;max-width: 100%;}
 	#jp_header {width: 100% !important;}
